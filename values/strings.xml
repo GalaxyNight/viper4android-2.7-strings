@@ -2,72 +2,72 @@
 <resources>
 
     <!--Bottom navigation and notification strings-->
-    <string name="device_unsupported">Unsupported</string>
-    <string name="device_headset">Headset</string>
-    <string name="device_speaker">Speaker</string>
-    <string name="device_bt_a2dp">Bluetooth</string>
+    <string name="device_unsupported">サポートされていません</string>
+    <string name="device_headset">ヘッドセット</string>
+    <string name="device_speaker">スピーカー</string>
+    <string name="device_bt_a2dp">Bluetooch</string>
     <string name="device_usb_device">USB</string>
-    <string name="notification_channel_name">ViPER4Android service</string>
-    <string name="notification_content_title">Processing (%s)</string>
-    <string name="notification_content_text">Tap for more options.</string>
-    <string name="showcase_title">Opening presets menu</string>
-    <string name="showcase_description">Tap the selected device to open the menu</string>
+    <string name="notification_channel_name">ViPER4Android サービス</string>
+    <string name="notification_content_title">処理中 (%s)</string>
+    <string name="notification_content_text">タップするとより多くのオプションが表示されます。</string>
+    <string name="showcase_title">プリセットメニューを開く</string>
+    <string name="showcase_description">選択した機器をタップしてメニューを開く</string>
 
     <!--Dialogs-->
-    <string name="dialog_install_driver">No driver found</string>
-    <string name="dialog_driver_not_found">Do you wish to install the driver now?
-        \nCaution: Your device will reboot automatically. Make sure your session is saved</string>
-    <string name="dialog_installation_failed">Installation failed at %s</string>
-    <string name="dialog_no_root_access">obtaining root access</string>
-    <string name="dialog_cpu_not_supported">filtering supported CPU architectures</string>
-    <string name="installer_status_rebooting">Rebooting…</string>
+    <string name="dialog_install_driver">ドライバーが見つかりません</string>
+    <string name="dialog_driver_not_found">今すぐドライバーをインストールしますか？
+        \nCaution: デバイスは自動的に再起動されます。 セッションが保存されているか確認してください。</string>
+    <string name="dialog_installation_failed">インストールが失敗しました (%s)</string>
+    <string name="dialog_no_root_access">root権限を取得</string>
+    <string name="dialog_cpu_not_supported">対応するCPUアーキテクチャのフィルタリング</string>
+    <string name="installer_status_rebooting">再起動中…</string>
 
     <!--Presets-->
-    <string name="load">Load</string>
-    <string name="copy">Copy to</string>
-    <string name="overwrite">Overwrite</string>
-    <string name="rename">Rename</string>
-    <string name="delete">Delete</string>
-    <string name="new_preset">New preset</string>
-    <string name="overwrite_preset">Overwrite %s</string>
-    <string name="overwrite_preset_description">Are you sure you want to overwrite %s?</string>
-    <string name="rename_preset">Rename %s</string>
-    <string name="delete_preset">Delete %s</string>
-    <string name="delete_preset_description">Do you really wish to delete %s? You can\'t undo this action</string>
-    <string name="loaded">Successfully loaded %s</string>
-    <string name="saved">Successfully saved %s</string>
-    <string name="copied">Successfully copied %s</string>
-    <string name="overwritten">Successfully overwritten %s</string>
-    <string name="renamed">Successfully renamed to %s</string>
-    <string name="deleted">Successfully deleted %s</string>
-    <string name="not_loaded">Failed loading %s</string>
-    <string name="not_saved">Failed saving %s</string>
-    <string name="not_copied">Failed copying %s</string>
-    <string name="not_overwritten">Failed overwriting %s</string>
-    <string name="not_renamed">Failed renaming %s</string>
-    <string name="not_deleted">Failed deleting %s</string>
+    <string name="load">読み込み</string>
+    <string name="copy">へのコピー</string>
+    <string name="overwrite">上書き</string>
+    <string name="rename">名前の変更</string>
+    <string name="delete">削除</string>
+    <string name="new_preset">新しいプリセット</string>
+    <string name="overwrite_preset">上書き %s</string>
+    <string name="overwrite_preset_description">本当に %s を上書きしますか？</string>
+    <string name="rename_preset">名前の変更 %s</string>
+    <string name="delete_preset">削除 %s</string>
+    <string name="delete_preset_description">本当に %s を削除しますか？ このアクションを元に戻すことはできません</string>
+    <string name="loaded">読み込みに成功しました %s</string>
+    <string name="saved">保存に成功しました %s</string>
+    <string name="copied">コピーに成功しました %s</string>
+    <string name="overwritten">上書きに成功しました %s</string>
+    <string name="renamed">%s への名前の変更に成功しました%s</string>
+    <string name="deleted">%s の削除に成功しました</string>
+    <string name="not_loaded">%s の読み込みに失敗しました</string>
+    <string name="not_saved">%s の保存に失敗しました</string>
+    <string name="not_copied">%s のコピーに失敗しました</string>
+    <string name="not_overwritten">%s の上書きに失敗しました</string>
+    <string name="not_renamed">%s の名前の変更に失敗しました</string>
+    <string name="not_deleted">%s の削除に失敗しました</string>
 
-    <string name="dialog_preset_new_placeholder">Preset name</string>
-    <string name="dialog_preset_error_slash">\"/\" is not allowed</string>
-    <string name="dialog_preset_error_empty">Please enter a preset name</string>
+    <string name="dialog_preset_new_placeholder">プリセット名</string>
+    <string name="dialog_preset_error_slash">\"/\" は使用できません</string>
+    <string name="dialog_preset_error_empty">プリセット名を入力してください</string>
 
     <!--Dialogs Driver-->
-    <string name="dialog_driver_status">Driver status</string>
+    <string name="dialog_driver_status">ドライバーの状態</string>
     <string name="dialog_driver_status_description">
-        Driver version: %1$s
-        \nNEON enabled: %2$s
-        \nEnabled: %3$s
-        \nStatus: %4$s
-        \nAudio format: %5$s
-        \nProcessing: %6$s
-        \nSampling rate: %7$d
+        ドライバー バージョン: %1$s
+        \nNEON 使用可能: %2$s
+        \n使用可能: %3$s
+        \n状態: %4$s
+        \n音声フォーマット: %5$s
+        \nプロセッシング: %6$s
+        \nサンプリングレート: %7$d
     </string>
-    <string name="no">No</string>
-    <string name="yes">Yes</string>
-    <string name="abnormal">Abnormal</string>
-    <string name="normal">Normal</string>
-    <string name="unsupported">Unsupported</string>
-    <string name="supported">Supported</string>
+    <string name="いいえ">No</string>
+    <string name="はい">Yes</string>
+    <string name="異常">Abnormal</string>
+    <string name="通常">Normal</string>
+    <string name="サポートされていません">Unsupported</string>
+    <string name="サポートされています">Supported</string>
 
     <!-- Main preference screen -->
     <string name="pref_fx_limiter_title">Master limiter</string>
