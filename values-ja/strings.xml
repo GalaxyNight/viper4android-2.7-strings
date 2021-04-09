@@ -199,19 +199,19 @@
     <string name="symbol_meter_squared">m²</string>
 
     <!-- General settings -->
-    <string name="title_activity_settings">Settings</string>
-    <string name="attach_sessions">Attach audio effects</string>
-    <string name="attach_on">All sessions but 0</string>
-    <string name="attach_off">Session 0 only</string>
-    <string name="compatibility_mode">Compatibility mode</string>
-    <string name="notification_settings">Notification settings</string>
-    <string name="donate">Support development</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="attach_sessions">オーディオエフェクトを付ける</string>
+    <string name="attach_on">0 以外の全セッション</string>
+    <string name="attach_off">セッション 0 のみ</string>
+    <string name="compatibility_mode">互換モード</string>
+    <string name="notification_settings">通知設定</string>
+    <string name="donate">開発をサポート</string>
     <string name="credits">Application written by</string>
     <string name="mention">Made possible by</string>
 
-    <string name="error_empty_directory">The directory %s is empty</string>
-    <string name="token_lost">A running program has requested Android to disable audio effects. ViPER4Android will be temporarily disabled</string>
-    <string name="request_vdc">Request a file</string>
-    <string name="request">Request</string>
+    <string name="error_empty_directory">%s は空です</string>
+    <string name="token_lost">実行中のプログラムがオーディオエフェクトの無効化を要求しています。ViPER4Androidは一時的に無効になりました。</string>
+    <string name="request_vdc">ファイルのリクエスト</string>
+    <string name="request">リクエスト</string>
 
 </resources>
