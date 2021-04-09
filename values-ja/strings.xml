@@ -62,12 +62,12 @@
         \nプロセッシング: %6$s
         \nサンプリングレート: %7$d
     </string>
-    <string name="いいえ">No</string>
-    <string name="はい">Yes</string>
-    <string name="異常">Abnormal</string>
-    <string name="通常">Normal</string>
-    <string name="サポートされていません">Unsupported</string>
-    <string name="サポートされています">Supported</string>
+    <string name="No">いいえ</string>
+    <string name="Yes">はい</string>
+    <string name="Abnormal">異常</string>
+    <string name="Normal">通常</string>
+    <string name="Unsupported">サポートされていません</string>
+    <string name="Supported">サポートされています</string>
 
     <!-- Main preference screen -->
     <string name="pref_fx_limiter_title">Master limiter</string>
